@@ -4,3 +4,6 @@
 * rspec
 * nokogiri
 * sqlite3
+* vcr
+* webmock
+* httpclient
