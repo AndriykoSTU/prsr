@@ -12,7 +12,7 @@ http_interactions:
       Accept:
       - "*/*"
       Date:
-      - Thu, 19 May 2016 14:35:53 GMT
+      - Thu, 19 May 2016 17:22:29 GMT
   response:
     status:
       code: 200
@@ -21,11 +21,11 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 19 May 2016 14:35:52 GMT
+      - Thu, 19 May 2016 17:22:28 GMT
       Content-Type:
       - text/html; charset=WINDOWS-1251
       Content-Length:
-      - '228859'
+      - '229888'
       Connection:
       - keep-alive
     body:
@@ -383,7 +383,7 @@ http_interactions:
         \       \n        </style>\n     \n\n            <div id=\"content-all\">\n
         \   \n\n      <div class=\"heading\">\n        <div class=\"block_submenu\">\n
         \         <div class=\"information_block_ins\">\n            <h3>\n              <a
-        class=\"show_section\">Всього: 371 </a>\n              <span><b>Законодавчі
+        class=\"show_section\">Всього: 373 </a>\n              <span><b>Законодавчі
         акти, прийняті на 4 сесії VIII скл.</b>\n            </h3>\n          </div>\n
         \       </div>\n      </div>\n      <div class=\"information_block\">\n        <br>\n
         \       <div class=\"information_block_ins\">\n    \n<!--\n   CALLER info:\n
@@ -398,6 +398,18 @@ http_interactions:
         VALIGN=CENTER WIDTH=\"10%\">Дата акта</th>\n<th ALIGN=center VALIGN=CENTER
         WIDTH=\"60%\">Назва акта</th>\n<th ALIGN=center VALIGN=CENTER WIDTH=\"10%\">Реєстраційний<br>номер<br>законопроекту</th>\n<th
         ALIGN=center VALIGN=CENTER WIDTH=\"10%\">Дата<br>законо-<br>проекту</th>\n</tr>\n<tr>\n<td
+        ALIGN=center VALIGN=CENTER WIDTH=\"10%\"><a href=\"http://zakon.rada.gov.ua/go/1383-VIII
+        target=\"_blank\"\">1383-VIII</a></td>\n<td ALIGN=center VALIGN=CENTER WIDTH=\"10%\">19.05.2016</td>\n<td
+        ALIGN=left VALIGN=CENTER WIDTH=\"60%\">Постанова Верховної Ради України про
+        дострокове припинення повноважень народного депутата України Гордєєва А.А.</td>\n<td
+        ALIGN=center VALIGN=CENTER WIDTH=\"10%\"><a href=\"/pls/zweb2/webproc4_1?pf3511=59111\">4673</a></td>\n<td
+        ALIGN=center VALIGN=CENTER WIDTH=\"10%\">16.05.2016</td>\n</tr>\n<tr>\n<td
+        ALIGN=center VALIGN=CENTER WIDTH=\"10%\"><a href=\"http://zakon.rada.gov.ua/go/1382-VIII
+        target=\"_blank\"\">1382-VIII</a></td>\n<td ALIGN=center VALIGN=CENTER WIDTH=\"10%\">19.05.2016</td>\n<td
+        ALIGN=left VALIGN=CENTER WIDTH=\"60%\">Постанова Верховної Ради України про
+        дострокове припинення повноважень народного депутата України Гарбуза Ю.Г.</td>\n<td
+        ALIGN=center VALIGN=CENTER WIDTH=\"10%\"><a href=\"/pls/zweb2/webproc4_1?pf3511=59110\">4672</a></td>\n<td
+        ALIGN=center VALIGN=CENTER WIDTH=\"10%\">16.05.2016</td>\n</tr>\n<tr>\n<td
         ALIGN=center VALIGN=CENTER WIDTH=\"10%\"><a href=\"http://zakon.rada.gov.ua/go/1358-VIII
         target=\"_blank\"\">1358-VIII</a></td>\n<td ALIGN=center VALIGN=CENTER WIDTH=\"10%\">12.05.2016</td>\n<td
         ALIGN=left VALIGN=CENTER WIDTH=\"60%\">Постанова Верховної Ради України про
@@ -2617,5 +2629,5 @@ http_interactions:
         \               </div>            </div>            </div>    </div>    <!--
         end footer --></div></body></html>\n"
     http_version: 
-  recorded_at: Thu, 19 May 2016 14:35:53 GMT
+  recorded_at: Thu, 19 May 2016 17:22:29 GMT
 recorded_with: VCR 3.0.1
