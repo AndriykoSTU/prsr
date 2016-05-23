@@ -29,5 +29,12 @@ describe ListOfLaws, vcr: { cassette_name: 'list' } do
 
   describe '#create_database' do
     #не шарю - пишу просто так
+    #можливо перевірка існуючої бази по відношенню до заданого аргументу
+  end
+
+  describe '#checker' do
+  end
+
+  describe '#add_to_database' do
   end
 end

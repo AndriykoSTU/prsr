@@ -13,7 +13,7 @@ class ListOfLaws
   def to_parse
     page = HTTPClient.new.get(@page_url)
     if page.status == 200
-      Nokogiri::HTML(page.body.encode('Windows-1251'))   
+      Nokogiri::HTML(page.body.encode('Windows-1251'))    
     else
       raise NotFound, 'Page not found'      
     end   
@@ -52,18 +52,29 @@ class ListOfLaws
   end
 
   def count
+    filter
+    create_database
+    checker
+    add_to_database
         #передає не парсовані елементи іншому класу     
   end
 
+#перевыря чи елемент зведений до бази
+#і передає його count та add_to_data - якщо не зведений 
   def checker
-        #перевыря чи елемент зведений до бази
-        #і передає його count та add_to_data - якщо не зведений       
+      
   end
 
-  def add_to_data
-      #додає в кінець бази нові зведені списки
-      #     
+#додає в кінець бази нові зведені списки
+#  
+  def add_to_database
+    query = ("INSERT INTO parsed_list (act_number,_act_date, name, law_number, law_date) VALUES(?,?,?,?,?)")
+    @list_array.each do |way|
+      SQLite3::Database.open("#{@db_dir}/list_of_parsed_links.sqlite").execute(query, way[:act_num], way[:act_date], way[:act_name], way[:law_num], way[:law_date])
+    end   
   end
 
 end
+
+
 
